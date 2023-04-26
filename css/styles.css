@@ -24,29 +24,33 @@ header{
    
     height: 100px;
     width: 500px;
-    background-color: rgb(198, 198, 235);
+    background-color: rgb(224, 204, 224);
     max-width: 1200px;
     margin: auto;
+    padding: 1% 2%;
 
 }
  #logo{
     width: 20%;
     height: auto;
     display: block;
-    margin-left: 2%;
+    margin-left: 0px;
     border-radius: 50%;
     padding: 0px;
-    border: 2px solid pink;
+    border: 2px solid rgb(192, 145, 192);
+    display: flex;
+    float: left;
  }
  .menu li a { 
-    background-color: #9D5DB2;
+    background-color:  rgb(224, 204, 224);
     color: black;
     font-size: 30px;
-    padding: 20px 40px;
+    padding: 10px 40px;
     display: block;
     text-decoration: none;
-    margin-top: 0px;
     font-family: exo, sans-serif;
+    
+    
 }
 .menu li a:hover {
     background-color: #9920c2;
@@ -59,21 +63,30 @@ header{
     display: none;
     position: absolute;
     min-width: 140PX;
+    margin:0%;
 }
 .menu li:hover > ul { display: block;
 } 
 
 main {
-    height: 800px;
+    height: 1000px;
     width: 500px;
-    background-color: blue;
+    background-color: rgb(180, 122, 190);
     
-    
+    }
+#foto{ 
+        width: 40%;
+        height: auto;
+        display: block;
+        margin: auto;
+        border-radius: 50%;
+        padding: 5px;
+        border: 2px solid #d288eb;
     }
 footer{
         height: 100px;
         width: 500px;
-        background-color: rgb(87, 87, 230);
+        background-color: rgb(121, 68, 128);
         max-width: 1200px;
         margin: auto;
         
