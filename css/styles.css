@@ -2,6 +2,8 @@
 
 /* Fonts */
 /* Importar aquí la font */
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Exo:wght@900&display=swap');
 
 
 
@@ -17,6 +19,67 @@
     /* Para que el scrolleo en la one page sea suave */
     scroll-behavior: smooth;
 }
+
+header{
+   
+    height: 100px;
+    width: 500px;
+    background-color: rgb(198, 198, 235);
+    max-width: 1200px;
+    margin: auto;
+
+}
+ #logo{
+    width: 20%;
+    height: auto;
+    display: block;
+    margin-left: 2%;
+    border-radius: 50%;
+    padding: 0px;
+    border: 2px solid pink;
+ }
+ .menu li a { 
+    background-color: #9D5DB2;
+    color: black;
+    font-size: 30px;
+    padding: 20px 40px;
+    display: block;
+    text-decoration: none;
+    margin-top: 0px;
+    font-family: exo, sans-serif;
+}
+.menu li a:hover {
+    background-color: #9920c2;
+
+}
+.menu > li{
+    float:right;
+}
+.menu li ul {
+    display: none;
+    position: absolute;
+    min-width: 140PX;
+}
+.menu li:hover > ul { display: block;
+} 
+
+main {
+    height: 800px;
+    width: 500px;
+    background-color: blue;
+    
+    
+    }
+footer{
+        height: 100px;
+        width: 500px;
+        background-color: rgb(87, 87, 230);
+        max-width: 1200px;
+        margin: auto;
+        
+        
+        }
+    
 
 /* Para quitar los puntos a los items de listas */
 ul {
