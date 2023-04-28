@@ -19,16 +19,26 @@
     /* Para que el scrolleo en la one page sea suave */
     scroll-behavior: smooth;
 }
+.contenedor {
+    height: 2000px;
+    width: 500px;
+    background-color: aqua;
+    max-width: 1200px;
+    margin: auto;
+    
+
+ }
 
 header{
    
     height: 90px;
     width: 500px;
-    background-color: rgb(224, 204, 224);
+    background-color: #fbfbfb;
     max-width: 1200px;
     margin: auto;
     padding: 1% 2%;
     position: fixed;
+    line-height: 1.2;
 
 }
  #logo{
@@ -38,12 +48,12 @@ header{
     margin-left: 0px;
     border-radius: 50%;
     padding: 0px;
-    border: 2px solid rgb(192, 145, 192);
+    border: 2px solid black;
     display: flex;
     float: left;
  }
  .menu li a { 
-    background-color:  rgb(224, 204, 224);
+    background-color:  #fbfbfb;
     color: black;
     font-size: 20px;
     padding: 10px 40px;
@@ -72,17 +82,26 @@ header{
 main {
     height: 2000px;
     width: 500px;
-    background-color: rgb(180, 122, 190);
+    background-color: #fbfbfb;
+    padding-top: 70px;
+    line-height: 1.2;
     
     }
-#foto{ 
-        width: 400px;
+
+#foto { 
+        width: 300px;
         height: auto;
         display: block;
         margin: auto;
         border-radius: 50%;
-        padding: 5px;
-        border: 2px solid #d288eb;
+        padding: 20px;
+        border: black;
+        margin-left: auto;
+        margin-right: auto;
+    
+
+        
+
     }
 footer{
         height: 90px;
