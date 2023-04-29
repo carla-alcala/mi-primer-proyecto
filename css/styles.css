@@ -138,7 +138,7 @@ main {
 
 }
 #dos{
-    height: 500px;
+    height: 10px;
     width: 500px;
     background-color: #fbfbfb;
     line-height: 1.2;
@@ -165,20 +165,14 @@ main {
     margin-top: 20px;
 
 }
-.tres { 
-    width: 300px;
-        height: auto;
-        background-color: #9920c2;
-        display: block;
-        margin: auto;
-        border-radius: 50%;
-        padding: 20px;
-        border: black;
-        margin-left: auto;
-        margin-right: auto;
-    
-        
-    }
+.link{
+    height: 40px;
+    width: auto;
+    display: block;
+    text-align: center;
+
+
+}
 #linkedin{
     width: 40px; 
     height: 40px;
@@ -192,7 +186,6 @@ main {
     width: 40px; 
     height: 40px;
 }
-   
 footer{
         height: 90px;
         width: 500px;
