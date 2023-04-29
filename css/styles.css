@@ -101,16 +101,49 @@ main {
 
     }
 #inicio{
-    height: 800px;
+    height: 400px;
     width: 500px;
     background-color: #fbfbfb;
     line-height: 1.2;
 }
-#contacto{
-    height: 500px;
+#hola{
+    font-size: 36px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#cv{
+    background-color:  #af599e;
+    color: #fbfbfb;
+    font-size: 20px;
+    padding: 10px 20px;
+    display: block;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: exo, sans-serif;
+    margin: 100px 100px
+
+
+}
+#primero{
+    font-size: 18px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+    text-transform: capitalize;
+
+}
+.contacto{
+    height: 200px;
     width: 500px;
-    background-color: #fbfbfb;
+    background-color: rgba(175, 89, 158, 0.3);
     line-height: 1.2;
+    color: #0f0f0f;
+    margin-top: 400px;
+}
+#hablemos{
+
 }
 footer{
         height: 90px;
