@@ -2,9 +2,8 @@
 
 /* Fonts */
 /* Importar aquí la font */
-<style>
-  @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap')
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap')
 
 
 
@@ -21,23 +20,21 @@
     scroll-behavior: smooth;
 }
 .contenedor {
-    height: 1000px;
+    height: 40%;
     width: 500px;
-    background-color: #8b2f2f;
+    background-color: #fbfbfb;
     max-width: 1200px;
     margin: auto;
     position: relative;
     padding-bottom: 240px;
-    min-height: 190vh;
+    min-height: 1000px;
     font-family: lato sans-serif;
-
-
  }
 
 header{
    
-    height: 90px;
-    width: 500px;
+    height: 10%;
+    width: 450px;
     background-color: #fbfbfb;
     max-width: 1200px;
     margin: auto;
@@ -85,7 +82,7 @@ header{
 } 
 
 main {
-    height: 1000px;
+    height: 80%;
     width: 500px;
     background-color: #fbfbfb;
     padding-top: 70px;
@@ -200,28 +197,28 @@ main {
 
 }
 #linkedin{
-    width: 30px; 
-    height: 30px;
+    width: 40px; 
+    height: 40px;
     text-align: center;
     justify-items: center;
       
 
 }
 #github{
-    width: 30px; 
-    height: 30px;
+    width: 40px; 
+    height: 40px;
     text-align: center;
     justify-items: center;
     
 }
 #mail{
-    width: 30px; 
-    height: 30px;
+    width: 40px; 
+    height: 40px;
     text-align: center;
     justify-items: center;
 }
 footer{
-        height: 90px;
+        height: 10%;
         width: 500px;
         background-color: #af599e;
         max-width: 1200px;
